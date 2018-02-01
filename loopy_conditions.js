@@ -7,6 +7,26 @@
  * @return { Number }
  */
 
+var output;
+
+
+function greaterNumber(a,b){
+	if (a >= b){
+		output = a;
+	}
+
+	else if (a <= b){
+		output = b;
+	}
+
+	else{
+		output = "error";
+	}
+}
+
+greaterNumber(32, 12)
+console.log(output);
+
 
 /**
  * Create a function called 'stringOfNumbers'.
@@ -18,6 +38,17 @@
  * @return { String }
  */
 
+var i;
+
+function stringOfNumbers(x){
+	return x - 1{
+		
+	}
+}
+
+for (i=x; i<x; i++){
+	
+}
 
 /**
  * Create a function called 'sumOfArray'.
